@@ -8,7 +8,8 @@ namespace Laboratorium
 {
     partial class Laboratorium
     {
-        
+        Pristroj laboratornyPristroj1;
+        Pristroj laboratornyPristroj2;
 
     }
 }
