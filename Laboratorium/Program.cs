@@ -10,6 +10,7 @@ namespace Laboratorium
     {
         static void Main(string[] args)
         {
+            
         }
     }
 }

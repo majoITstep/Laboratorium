@@ -10,6 +10,9 @@ namespace Laboratorium
     {
         Pristroj laboratornyPristroj1;
         Pristroj laboratornyPristroj2;
-
+    }
+    public void SpustVyskum()
+    {
+          
     }
 }
