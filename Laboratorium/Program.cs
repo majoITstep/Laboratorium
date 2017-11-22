@@ -10,7 +10,10 @@ namespace Laboratorium
     {
         static void Main(string[] args)
         {
-            
+            Pristroj odstredivka1 = new Odstredivka("154/2017", "prietokova");
+
+            Console.WriteLine("hggd {0}", odstredivka1.VypisInformacieOPristroji());         
         }
+        
     }
 }

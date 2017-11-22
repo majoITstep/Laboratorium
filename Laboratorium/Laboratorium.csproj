@@ -45,6 +45,8 @@
     <Compile Include="IOvladaniePristroja.cs" />
     <Compile Include="Laboratorium.cs" />
     <Compile Include="LaboratoriumVedenie.cs" />
+    <Compile Include="Mikroskop.cs" />
+    <Compile Include="Odstredivka.cs" />
     <Compile Include="Pristroj.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
