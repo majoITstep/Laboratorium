@@ -8,12 +8,11 @@ namespace Laboratorium
 {
     abstract class Pristroj
     {
-       //string VyrobneCislo;
+        //string VyrobneCislo;
 
-        public virtual void VypisInformacieOPristroji()
+        public abstract void VypisInformacieOPristroji();
 
-        { }
-
+        
         public abstract void VypisDetailneInformacie();
         
        }

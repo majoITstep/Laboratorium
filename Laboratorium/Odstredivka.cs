@@ -26,11 +26,11 @@ namespace Laboratorium
         }
         public void Zapni()
         {
-            Console.WriteLine("Odstredivka je zapnuta");
+            Console.WriteLine("Som zapnuta");
         }
         public void Vypni()
         {
-            Console.WriteLine("Odstredivka je vypnuta");
+            Console.WriteLine("Som vypnuta");
         }
         
     }

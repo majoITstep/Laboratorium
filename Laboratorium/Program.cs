@@ -11,8 +11,12 @@ namespace Laboratorium
         static void Main(string[] args)
         {
             Pristroj odstredivka1 = new Odstredivka("154/2017", "prietokova");
+            odstredivka1.VypisDetailneInformacie();
+            odstredivka1.VypisInformacieOPristroji();
+            IOvladaniePristroja Z = odstredivka1;
+            Z.Zapni();
+            Console.ReadLine();
 
-            Console.WriteLine("hggd {0}", odstredivka1.VypisInformacieOPristroji());         
         }
         
     }
