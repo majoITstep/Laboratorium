@@ -8,12 +8,21 @@ namespace Laboratorium
 {
     partial class Laboratorium
     {
-        Pristroj laboratornyPristroj1;
-        Pristroj laboratornyPristroj2;
+        public Pristroj LaboratorniPristroj1;
+        public Pristroj LaboratorniPristroj2;
 
         public void SpustVyskum()
         {
+            Veduci veduci = new Veduci("Mgr");
+            LaboratorniPristroj1 = new Mikroskop();
+            LaboratorniPristroj2 = new Odstredivka();
+            LaboratorniPristroj1.Nazov = "MO301";
+            LaboratorniPristroj2.Nazov = "OP1000";
+            IOvladaniePristroja ovladanie = (IOvladaniePristroja)LaboratorniPristroj1;
+            ovladanie.Zapni();
 
+            LaboratorniPristroj1.VypisDetailneInformacie();
+            LaboratorniPristroj2.VypisDetailneInformacie();
             
         }
           

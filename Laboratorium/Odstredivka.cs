@@ -8,30 +8,22 @@ namespace Laboratorium
 {
      sealed class Odstredivka : Pristroj, IOvladaniePristroja
     {
-        string vyrobneCislo;
-        string typZariadenia;
-        public Odstredivka(string vyrobneCislo, string typZariadenia)
-        {
-            this.vyrobneCislo = vyrobneCislo;
-            this.typZariadenia = typZariadenia;
-        }
-
-        public override void VypisInformacieOPristroji()
-        {
-            Console.WriteLine("Vyrobne cislo je: {0}", vyrobneCislo);
-        }
+        
         public override void VypisDetailneInformacie()
         {
-            Console.WriteLine("Som Odstredivka typu: {0}", typZariadenia);
+            base.VypisInformacieOPristroji();
+            Console.WriteLine("Som Odstredivka");
+            base.VypisStav();
+
         }
         public void Zapni()
         {
-            Console.WriteLine("Som zapnuta");
+            zapnute = true;
         }
         public void Vypni()
         {
-            Console.WriteLine("Som vypnuta");
+            zapnute = false;
         }
-        
+
     }
 }

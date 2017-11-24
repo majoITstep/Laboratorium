@@ -8,12 +8,18 @@ namespace Laboratorium
 {
     abstract class Pristroj
     {
-        //string VyrobneCislo;
+        protected bool zapnute;
+        public string Nazov;
 
-        public abstract void VypisInformacieOPristroji();
-
-        
         public abstract void VypisDetailneInformacie();
-        
-       }
+
+        public virtual void VypisInformacieOPristroji()
+        {
+            Console.WriteLine("Pristroj, ktoreho nazov je:{0}", Nazov);
+        }
+        protected void VypisStav()
+        {
+            Console.Write("Zapnute:{0}", zapnute);
+        }
+    }
 }

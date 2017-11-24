@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="IOvladaniePristroja.cs" />
     <Compile Include="Laboratorium.cs" />
-    <Compile Include="LaboratoriumVedenie.cs" />
+    <Compile Include="Laboratorium1.cs" />
     <Compile Include="Mikroskop.cs" />
     <Compile Include="Odstredivka.cs" />
     <Compile Include="Pristroj.cs" />
